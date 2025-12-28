@@ -1,4 +1,7 @@
-x = 3 + 2j
+def add(a, b):
+    return a + b
 
-print(x.real)
-print(x.imag)
+x = int(input("Enter a: "))
+y = int(input("Enter b: "))
+
+print(add(x, y))

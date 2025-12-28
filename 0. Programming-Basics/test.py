@@ -1,7 +1,5 @@
-def add(a, b):
-    return a + b
+Name = "Mohit"
+Age = 21
+Hight = 5.540
 
-x = int(input("Enter a: "))
-y = int(input("Enter b: "))
-
-print(add(x, y))
+print("Name: %s, Age: %d, Hight: %.2f" % (Name, Age, Hight))

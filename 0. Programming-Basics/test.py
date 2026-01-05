@@ -1,3 +1,4 @@
-student = dict(name = "Alex", age = 20, course = "python")
+student = {"name": "Alex", "age": 20}
 
-print(student)
+for key in student:
+    print(key)  

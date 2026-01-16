@@ -1,4 +1,6 @@
-colors = ["red", "blue", "green"]
+numbers = [2, 3, 1, 5]
 
-for index, color in enumerate(colors):
-    print(index, color)
+print(len(numbers))
+print(sum(numbers, 20))
+print(max(numbers))
+print(min(numbers))
